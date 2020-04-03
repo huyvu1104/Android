@@ -58,7 +58,7 @@
         android:elevation="10dp"
         android:scaleType="centerCrop"
         app:layout_constraintBottom_toBottomOf="@+id/textView"
-        app:layout_constraintDimensionRatio="1"
+        app:layout_constraintDimensionRatio="1:1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline2"
@@ -106,7 +106,7 @@
         android:paddingRight="8dp"
         android:text="War comes to Terra through the eldritch webway, as the immortal Emperor and his Custodians take up arms against Chaos to preserve the future of all mankind.
 Untold billions curse the name of Horus as an arch-traitor, one who has brought strife to the galaxy on an almost unimaginable scale. However, there are some who whisper instead that the blame lies with the Emperor himself. Years after retreating from the Great Crusade to unknown endeavours beneath the Imperial Palace on Terra, he now wages a very different kind of war deep within the ancient eldar webway – a war against all the daemonic forces of Chaos."
-        android:textColor="#807676"
+        android:textColor="@color/colorPrimaryDark"
         app:layout_constraintEnd_toEndOf="@+id/textView2"
         app:layout_constraintStart_toStartOf="@+id/textView2"
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
@@ -121,7 +121,7 @@ Untold billions curse the name of Horus as an arch-traitor, one who has brought 
         android:padding="12dp"
         android:text="START READING"
         android:textAllCaps="true"
-        android:textColor="#423E3E"
+        android:textColor="@color/colorPrimaryDark"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/textView2"
         app:layout_constraintEnd_toEndOf="@+id/textView2"
